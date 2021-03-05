@@ -16,6 +16,7 @@
 		40C2415E25EE8E000077E45B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2415D25EE8E000077E45B /* main.m */; };
 		40C2416825EE8E000077E45B /* AppThinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2416725EE8E000077E45B /* AppThinTests.m */; };
 		40C2417325EE8E000077E45B /* AppThinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2417225EE8E000077E45B /* AppThinUITests.m */; };
+		40C2418425EEAF730077E45B /* Files.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2418325EEAF730077E45B /* Files.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		40C2416E25EE8E000077E45B /* AppThinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppThinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C2417225EE8E000077E45B /* AppThinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppThinUITests.m; sourceTree = "<group>"; };
 		40C2417425EE8E000077E45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C2418225EEAF730077E45B /* Files.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Files.h; sourceTree = "<group>"; };
+		40C2418325EEAF730077E45B /* Files.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Files.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		40C2414A25EE8DFF0077E45B /* AppThin */ = {
 			isa = PBXGroup;
 			children = (
+				40C2418125EEAF590077E45B /* Files */,
 				40C2414B25EE8DFF0077E45B /* AppDelegate.h */,
 				40C2414C25EE8DFF0077E45B /* AppDelegate.m */,
 				40C2414E25EE8DFF0077E45B /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				40C2417425EE8E000077E45B /* Info.plist */,
 			);
 			path = AppThinUITests;
+			sourceTree = "<group>";
+		};
+		40C2418125EEAF590077E45B /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				40C2418225EEAF730077E45B /* Files.h */,
+				40C2418325EEAF730077E45B /* Files.m */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 				40C2415325EE8DFF0077E45B /* ViewController.m in Sources */,
 				40C2414D25EE8DFF0077E45B /* AppDelegate.m in Sources */,
 				40C2415E25EE8E000077E45B /* main.m in Sources */,
+				40C2418425EEAF730077E45B /* Files.m in Sources */,
 				40C2415025EE8DFF0077E45B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Files.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSArray *files = [Files findAllFilesIn:@"/Users/sunner/Desktop/projects/measureapp/AJJ-Measure" suffix:@[@".m", @".mm"]];
+    // 查找到所有的@“xx”资源
+    [Files findResoucesIn:files pattern:@"@\"(.+)\""];
 }
-
 
 @end
